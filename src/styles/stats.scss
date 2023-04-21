@@ -1,0 +1,42 @@
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.stats__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  // margin: 1rem;
+
+  &::after {
+    content: "";
+    width: 2px;
+    height: 13.63px;
+    margin-right: 3rem;
+
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  &:last-child::after {
+    display: none;
+  }
+}
+
+.stats__value {
+  font-weight: 600;
+  font-size: 40.8925px;
+  line-height: 130%;
+  /* or 53px */
+  color: #ffffff;
+  margin-right: 1.5rem;
+}
+
+.stats__title {
+  margin-right: 3rem;
+  font-size: 20.4463px;
+  line-height: 130%;
+  /* or 27px */
+  text-transform: uppercase;
+}

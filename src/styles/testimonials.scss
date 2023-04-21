@@ -1,0 +1,26 @@
+.testimonials__intro {
+  margin-bottom: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonials__heading {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 170%; /* or 82px */
+  color: #ffffff;
+}
+.testimonials__description {
+  font-size: 18px;
+  line-height: 180%; /* or 32px */
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 450px;
+}
+
+.testimonials__feedback {
+  display: flex;
+  gap: 2rem;
+}

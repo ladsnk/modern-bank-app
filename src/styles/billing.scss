@@ -1,0 +1,46 @@
+.billing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .billing__img-wrapper {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .billing__text-wrapper {
+    flex: 1;
+    max-width: 600px;
+  }
+
+  .billing__heading {
+    margin-bottom: 1.5rem;
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 160%; /* or 77px */
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+
+  .billing__description {
+    margin-bottom: 3rem;
+
+    font-size: 18px;
+    line-height: 160%; /* or 29px */
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .billing__apps {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+      width: 128px;
+      height: 42px;
+    }
+  }
+}

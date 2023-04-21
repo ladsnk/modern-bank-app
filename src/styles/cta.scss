@@ -1,0 +1,26 @@
+.cta {
+  padding: 4.5rem 6rem;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta__heading {
+  margin-bottom: 1.5rem;
+
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%; /* or 67px */
+  color: #ffffff;
+}
+
+.cta__description {
+  font-size: 18px;
+  line-height: 160%; /* or 29px */
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+
+  max-width: 450px;
+}

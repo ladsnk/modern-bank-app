@@ -1,0 +1,58 @@
+.feedback-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.5rem 2.5rem;
+  // background-color: white;
+  flex: 1;
+  border-radius: 20px;
+}
+
+.feedback-card__quotes {
+  margin-bottom: 2.5rem;
+}
+
+.feedback-card__content {
+  flex: 1;
+  font-size: 18px;
+  line-height: 180%; /* or 32px */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.feedback-card__info {
+  display: flex;
+  align-items: center;
+}
+
+.feedback-card__img {
+  margin-right: 1rem;
+
+  width: 48px;
+  height: 48px;
+}
+
+.feedback-card__name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+}
+
+.feedback-card__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}

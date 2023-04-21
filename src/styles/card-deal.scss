@@ -1,0 +1,32 @@
+.card-deal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-deal__text-wrapper {
+  flex: 1;
+}
+
+.card-deal__heading {
+  margin-bottom: 1.5rem;
+
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 160%; /* or 77px */
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.card-deal__description {
+  margin-bottom: 4rem;
+
+  font-size: 18px;
+  line-height: 170%; /* or 31px */
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 550px;
+}
+
+.card-deal__img-wrapper {
+  flex: 1;
+}

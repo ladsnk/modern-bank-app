@@ -1,0 +1,14 @@
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.clients__client {
+  margin: 1rem 4rem;
+}
+
+.clients__logo {
+  width: 192px;
+}

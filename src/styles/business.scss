@@ -1,0 +1,41 @@
+.business {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.business__info {
+  flex: 1;
+}
+
+.business__heading {
+  margin-bottom: 1rem;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 160%;
+  /* or 77px */
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.business__description {
+  margin-bottom: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  /* or 31px */
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+}
+
+.business__features {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 1;
+}
